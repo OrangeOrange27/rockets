@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-exports.RocketBase = exports.MilitaryRocket = exports.NasaRocket = exports.SpaceXRocket = void 0;
+exports.RocketBase = exports.MilitaryRocket = exports.NasaRocket = exports.SpaceXRocket = exports.RocketInfo = void 0;
 var RocketBase = /** @class */ (function () {
     function RocketBase() {
     }
@@ -56,3 +56,9 @@ var MilitaryRocket = /** @class */ (function (_super) {
     return MilitaryRocket;
 }(RocketBase));
 exports.MilitaryRocket = MilitaryRocket;
+var RocketInfo = /** @class */ (function () {
+    function RocketInfo() {
+    }
+    return RocketInfo;
+}());
+exports.RocketInfo = RocketInfo;
